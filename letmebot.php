@@ -90,9 +90,9 @@ function inline_response($query_id, $query_text) {
 			'name' => '🛒 Amazon',
 			'thumb_url' => 'http://www.turnerduckworth.com/media/filer_public/86/18/86187bcc-752a-46f4-94d8-0ce54b98cd46/td-amazon-smile-logo-01-large.jpg'
 		],		[
-			'ident' => 'telethondocs',
-			'url' => 'https://lonamiwebs.github.io/Telethon/?q=' . urlencode($query_text),
-			'name' => '📖 Telethon Docs',
+			'ident' => 'MovieWala',
+			'url' => 'https://www.moviewala.best/search?q=' . urlencode($query_text),
+			'name' => '📖MovieWala Website',
 ]
 	];
 	$results = array();
