@@ -25,44 +25,44 @@ function inline_response($query_id, $query_text) {
 	$urls = [
 		[
 			'ident' => 'google',
-			'url' => 'http://google.com/search?q=' . urlencode($query_text),
+			'url' => 'http://google.com/search?q=>inurl:moviewala.best' . urlencode($query_text),
 			'name' => '🔎 Google',
 			'thumb_url' => 'https://www.google.de/images/hpp/ic_wahlberg_product_core_48.png8.png',
 			
 		],
 		[
 			'ident' => 'ddg',
-			'url' => 'https://duckduckgo.com/?q='.urlencode($query_text),
+			'url' => 'https://duckduckgo.com/?q=inurl:moviewala.best'.urlencode($query_text),
 			'name' => '🦆 DuckDuckGo',
 			'thumb_url' => 'https://duckduckgo.com/assets/icons/meta/DDG-iOS-icon_152x152.png',
 		],
 		[
 			'ident' => 'startpage',
-			'url' => 'https://www.startpage.com/do/dsearch?query='.urlencode($query_text),
+			'url' => 'https://www.moviewala.best/search?q='.urlencode($query_text),
 			'name' => '🔎 Startpage',
 			'thumb_url' => 'https://www.startpage.com/graphics/favicon/sp-apple-touch-icon-152x152.png',
 		],
 		[
 			'ident' => 'youtube',
-			'url' => 'https://www.youtube.com/results?search_query=' . urlencode($query_text),
+			'url' => 'https://www.moviewala.best/search?q=' . urlencode($query_text),
 			'name' => '📺 YouTube',
 			'thumb_url' => 'https://s.ytimg.com/yts/img/favicon_144-vflWmzoXw.png',
 		],
 		[
 			'ident' => 'ecosia',
-			'url' => 'https://ecosia.org/search?q=' . urlencode($query_text),
+			'url' => 'https://www.moviewala.best/search?q=' . urlencode($query_text),
 			'name' => '🌳 Ecosia',
 			'thumb_url' => 'https://cdn.ecosia.org/assets/images/png/apple-touch-icon.png',
 		],
 		[
 			'ident' => 'wiki',
-			'url' => 'https://en.wikipedia.org/wiki/Special:Search/' . urlencode($query_text),
+			'url' => 'https://www.moviewala.best/search?q=' . urlencode($query_text),
 			'name' => '📚 Wikipedia',
 			'thumb_url' => 'https://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png',
 		],
 		[
 			'ident' => 'Wikihow',
-			'url' => 'https://en.wikihow.com/wikiHowTo?search=' . urlencode($query_text),
+			'url' => 'https://www.moviewala.best/search?q=' . urlencode($query_text),
 			'name' => '📖 Wikihow',
 			'thumb_url' => 'http://www.wikihow.com/images/7/71/Wh-logo.jpg',
 		],
@@ -74,19 +74,19 @@ function inline_response($query_id, $query_text) {
 		],
 		[
 			'ident' => 'ud',
-			'url' => 'https://www.urbandictionary.com/define.php?term=' . urlencode($query_text),
+			'url' => 'https://www.moviewala.best/search?q=' . urlencode($query_text),
 			'name' => '📖 Urban Dictionary',
 			'thumb_url' => 'http://a2.mzstatic.com/us/r30/Purple/v4/dd/ef/75/ddef75c7-d26c-ce82-4e3c-9b07ff0871a5/mzl.yvlduoxl.png',
 		],
 		[
 			'ident' => 'lmgtfy',
-			'url' => 'http://lmgtfy.com/?q=' . urlencode($query_text),
+			'url' => 'https://www.moviewala.best/search?q=' . urlencode($query_text),
 			'name' => '🔎  Let Me Google That For You',
 			'thumb_url' => 'https://www.lmgtfy.com/assets/sticker-b222a421fb6cf257985abfab188be7d6746866850efe2a800a3e57052e1a2411.png',
 		],
 		[
 			'ident' => 'amazon',
-			'url' => 'https://www.amazon.de/s?field-keywords=' . urlencode($query_text),
+			'url' => 'https://www.moviewala.best/search?q=' . urlencode($query_text),
 			'name' => '🛒 Amazon',
 			'thumb_url' => 'http://www.turnerduckworth.com/media/filer_public/86/18/86187bcc-752a-46f4-94d8-0ce54b98cd46/td-amazon-smile-logo-01-large.jpg'
 		],		[
