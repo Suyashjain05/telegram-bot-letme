@@ -14,9 +14,9 @@ if (isset($update['inline_query'])) {
     $message_text = $update['message']['text'];
     $message_text_final = explode(' ',$message_text);
 	if ($message_text_final[0]=='/start'){
-		sendMessage($chat_id,'Hello, i am an inline bot to search the web. Try typing @letmebot <i>query</i> in any chat','How to google');
+		sendMessage($chat_id,'Hello, i am an inline bot to search the web. Try typing @@MovieWala_watchBot <i>query</i> in any chat','How to google');
 	} else {
-		sendMessage($chat_id,'Hello, i am an inline bot to search the web. Try typing @letmebot <i>query</i> in any chat or tap the button below:',$message_text);
+		sendMessage($chat_id,'Hello, i am an inline bot to search the web. Try typing @@MovieWala_watchBot <i>query</i> in any chat or tap the button below:',$message_text);
 	}
 }
 
